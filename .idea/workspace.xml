@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="257bfd6a-6aad-4d0b-981d-d4a5c4b37c16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="257bfd6a-6aad-4d0b-981d-d4a5c4b37c16" name="Changes" comment="Developed prototype of backend system of subject area human resource department">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +11,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2VRPFrEzFStJ0glb3xkFRDi7JeQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -25,7 +27,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/KBP/EgarPractice",
+    "last_opened_file_path": "D:/KBP/EgarPractice/home_task_1",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -40,7 +42,17 @@
       <workItem from="1694795828465" duration="51000" />
       <workItem from="1694795903042" duration="774000" />
       <workItem from="1694817022003" duration="470000" />
+      <workItem from="1694905003573" duration="143000" />
+      <workItem from="1694905773310" duration="28000" />
     </task>
+    <task id="LOCAL-00001" summary="Developed prototype of backend system of subject area human resource department">
+      <created>1694905134277</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694905134277</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Developed prototype of backend system of subject area human resource department" />
+    <option name="LAST_COMMIT_MESSAGE" value="Developed prototype of backend system of subject area human resource department" />
   </component>
 </project>

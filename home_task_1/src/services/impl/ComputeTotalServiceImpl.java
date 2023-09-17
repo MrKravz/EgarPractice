@@ -67,27 +67,7 @@ public class ComputeTotalServiceImpl implements ComputeTotalService {
     }
 
     private void computeTotalSalary(Rate rate, int time, TimeStatus timeStatus) {
-        if (timeStatus.equals(TimeStatus.Turnout)) {
-            totalSalary += computeSalaryService.computeHoursSalary(rate, time, TimeStatus.OverTime);
-            return;
-        }
-        if (timeStatus.equals(TimeStatus.OverTime)) {
-            totalSalary += computeSalaryService.computeHoursSalary(rate, time, TimeStatus.OverTime);
-            return;
-        }
-        if (timeStatus.equals(TimeStatus.BusinessTrip)) {
-            totalSalary += computeSalaryService.computeHoursSalary(rate, time, TimeStatus.BusinessTrip);
-            return;
-        }
-        if (timeStatus.equals(TimeStatus.Vacation)) {
-            totalSalary += computeSalaryService.computeHoursSalary(rate, time, TimeStatus.Vacation);
-            return;
-        }
-        if (timeStatus.equals(TimeStatus.SickDays)) {
-            totalSalary += computeSalaryService.computeHoursSalary(rate, time, TimeStatus.SickDays);
-            return;
-        }
-        totalSalary += computeSalaryService.computeHoursSalary(rate, time, TimeStatus.Absence);
+        totalSalary += computeSalaryService.computeHoursSalary(rate, time, timeStatus);
     }
 
 }
